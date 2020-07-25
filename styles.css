@@ -1,0 +1,56 @@
+#background{
+    width: 1080px;
+    height: 1600px;
+    text-align:center ; 
+    background-repeat: no-repeat;
+    background-image: url(./background.jpg) ;
+    background-color: white ;
+    background-size: 100% auto;
+    background-attachment: scroll;
+    position: absolute;
+    left:50%;
+    margin-left: -550px;
+}
+#bigBox
+{
+    margin:0 auto;
+    margin-top: 150px;
+    padding:20px 50px;
+    background-color:#00000090 ;
+    width:400px;
+    height:300px;
+    border-radius: 10px;
+    text-align: center;
+}
+#bigBox h1
+{
+	color: white;	/* LOGIN字体颜色 */
+}
+
+#bigBox .inputBox
+{
+	margin-top: 50px;	/* 输入框顶部与LOGIN标题的间距 */
+}
+
+#bigBox .inputBox .inputText
+{
+	margin-top: 20px;	/* 输入框之间的距离 */
+}
+#bigBox .inputBox .inputText input
+{
+    border:0;
+    padding: 10px 10px;
+    border-bottom: 1px solid white;/*白色透明*/
+    background-color: #00000000;
+    color:white;
+}
+#bigBox .loginButton
+{
+	margin-top: 30px;	/* 按钮顶部与输入框的距离 */
+	width: 150px;
+	height: 25px;
+	color: white;	/* 按钮字体颜色 */
+	border: 0; /* 删除按钮边框 */
+	border-radius: 20px;	/* 按钮圆角边 */
+	background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);	/* 按钮颜色 */
+}
